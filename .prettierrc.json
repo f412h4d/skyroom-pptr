@@ -1,0 +1,9 @@
+{
+  "eslintIntegration": true,
+  "singleQuote": true,
+  "useEditorConfig": true,
+  "printWidth": 120,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "useTabs": false
+}
