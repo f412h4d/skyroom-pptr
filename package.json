@@ -1,0 +1,43 @@
+{
+  "name": "skyroom-pptr",
+  "version": "0.1.0",
+  "description": "automated file upload for skyroom",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f412h4d/skyroom-pptr.git"
+  },
+  "keywords": [],
+  "author": "Farhad Farhadi <farhadi__farhad@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f412h4d/skyroom-pptr/issues"
+  },
+  "homepage": "https://github.com/f412h4d/skyroom-pptr#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
